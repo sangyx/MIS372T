@@ -367,3 +367,127 @@ def visualize_tokenization(sentence):
     """
 
     display(HTML(html_output))
+
+
+def get_similarity_results(word1, word2):
+    """
+    Calculates the similarity between two words and returns their 2D positions.
+
+    Args:
+        word1 (str): The first word.
+        word2 (str): The second word.
+
+    Returns:
+        dict: A dictionary containing:
+            - "word_positions": A dictionary mapping each word to its 2D coordinates.
+            - "similarity": The cosine similarity score between the two words.
+    """
+    MODEL_NAME = "glove-wiki-gigaword-50"
+    try:
+        word2vec_model = api.load(MODEL_NAME)
+    except Exception as e:
+        print(f"Error loading model: {e}")
+        return {}
+
+    word1 = word1.strip().lower()
+    word2 = word2.strip().lower()
+
+    try:
+        vec1 = word2vec_model.get_vector(word1)
+        vec2 = word2vec_model.get_vector(word2)
+    except KeyError as e:
+        print(f"The word {e} is not in the model's vocabulary.")
+        return {}
+
+    all_vectors = [vec1, vec2]
+    pca = PCA(n_components=2)
+    reduced_vectors = pca.fit_transform(all_vectors)
+
+    vector_map_2d = {word1: list(reduced_vectors[0]), word2: list(reduced_vectors[1])}
+
+    dot_product = np.dot(vec1, vec2)
+    norm1 = np.linalg.norm(vec1)
+    norm2 = np.linalg.norm(vec2)
+    similarity_score = dot_product / (norm1 * norm2)
+
+    return {
+        "word_positions": vector_map_2d,
+        "similarity": similarity_score,
+    }
+
+
+def display_similarity_plot(word1, word2):
+    """
+    Plots the 2D positions of two words and displays their similarity.
+
+    Args:
+        word1 (str): The first word from user input.
+        word2 (str): The second word from user input.
+    """
+    if not word1 or not word2:
+        return
+
+    results = get_similarity_results(word1, word2)
+    if not results:
+        return
+
+    print(results)
+
+    positions = results["word_positions"]
+    similarity = results["similarity"]
+
+    fig, ax = plt.subplots(figsize=(8, 8))
+
+    coords1 = positions[word1]
+    print(f"{word1} 2D vector: {coords1}")
+
+    coords2 = positions[word2]
+    print(f"{word2} 2D vector: {coords2}")
+
+    # Draw vector arrows
+    ax.arrow(
+        0,
+        0,
+        coords1[0],
+        coords1[1],
+        head_width=0.05,
+        head_length=0.05,
+        fc="blue",
+        ec="blue",
+    )
+    ax.arrow(
+        0,
+        0,
+        coords2[0],
+        coords2[1],
+        head_width=0.05,
+        head_length=0.05,
+        fc="red",
+        ec="red",
+    )
+
+    # Add labels
+    ax.text(
+        coords1[0] * 1.1,
+        coords1[1] * 1.1,
+        word1,
+        fontsize=12,
+        color="blue",
+        fontweight="bold",
+    )
+    ax.text(
+        coords2[0] * 1.1,
+        coords2[1] * 1.1,
+        word2,
+        fontsize=12,
+        color="red",
+        fontweight="bold",
+    )
+
+    # Title and labels
+    ax.set_title(f"Word Similarity Plot: '{word1}' vs '{word2}'", fontsize=14)
+    ax.set_xlabel("PCA Dimension 1", fontsize=10)
+    ax.set_ylabel("PCA Dimension 2", fontsize=10)
+
+    plt.show()
+    print(f"Cosine Similarity: {similarity:.4f}")
