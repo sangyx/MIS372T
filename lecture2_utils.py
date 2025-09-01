@@ -439,18 +439,14 @@ def display_similarity_plot(word1, word2):
     if not results:
         return
 
-    print(results)
-
     positions = results["word_positions"]
     similarity = results["similarity"]
 
     fig, ax = plt.subplots(figsize=(8, 8))
 
     coords1 = positions[word1]
-    print(f"{word1} 2D vector: {coords1}")
 
     coords2 = positions[word2]
-    print(f"{word2} 2D vector: {coords2}")
 
     # Draw vector arrows
     ax.arrow(
