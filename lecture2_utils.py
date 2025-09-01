@@ -396,14 +396,22 @@ def get_similarity_results(word1, word2):
         vec1 = word2vec_model.get_vector(word1)
         vec2 = word2vec_model.get_vector(word2)
     except KeyError as e:
-        print(f"The word {e} is not in the model's vocabulary.")
+        print(f"One of the words ('{e}') is not in the model's vocabulary.")
         return {}
 
-    all_vectors = [vec1, vec2]
-    pca = PCA(n_components=2)
-    reduced_vectors = pca.fit_transform(all_vectors)
+    # Select a sample of words to fit the PCA model
+    pca_words = word2vec_model.index_to_key[:500]
+    pca_vectors = [word2vec_model.get_vector(word) for word in pca_words]
 
-    vector_map_2d = {word1: list(reduced_vectors[0]), word2: list(reduced_vectors[1])}
+    # Fit the PCA model on the sample words to create a stable 2D space
+    pca = PCA(n_components=2)
+    pca.fit(pca_vectors)
+
+    # Transform the two input vectors into the new 2D space
+    reduced_vec1 = pca.transform(vec1.reshape(1, -1))[0]
+    reduced_vec2 = pca.transform(vec2.reshape(1, -1))[0]
+
+    vector_map_2d = {word1: list(reduced_vec1), word2: list(reduced_vec2)}
 
     dot_product = np.dot(vec1, vec2)
     norm1 = np.linalg.norm(vec1)
