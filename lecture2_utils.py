@@ -492,6 +492,8 @@ def display_similarity_plot(word1, word2):
     ax.set_title(f"Word Similarity Plot: '{word1}' vs '{word2}'", fontsize=14)
     ax.set_xlabel("PCA Dimension 1", fontsize=10)
     ax.set_ylabel("PCA Dimension 2", fontsize=10)
+    # Ensure equal scaling on both axes
+    ax.axis("equal")
 
     plt.show()
-    print(f"Cosine Similarity: {similarity:.4f}")
+    print(f"Cosine Similarity between '{word1}' and '{word2}': {similarity:.4f}")
