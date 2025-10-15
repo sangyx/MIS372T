@@ -1,0 +1,1232 @@
+[
+    {
+        "prompt": "You\u2019re a customer service agent replying to a late-shipment inquiry.",
+        "chosen": "Hello Alex,\n\nThank you for contacting us. I apologize for the delay\u2014your order is in transit and is expected to arrive by Thursday. I have upgraded your shipping at no cost and will monitor the package until delivery. Please let me know if you would like a refund for the shipping fee.\n\nBest regards,\nJordan",
+        "rejected": "Hey Alex! Sorry it\u2019s late\u2014looks like it\u2019s on the way and should land by Thu. I bumped the shipping for free and I\u2019ll keep an eye on it. Want me to refund the ship cost?"
+    },
+    {
+        "prompt": "You\u2019re scheduling a project kickoff call with a client.",
+        "chosen": "Dear Taylor,\n\nWould you be available for a 30-minute kickoff call on Tuesday at 10:00 AM? I will circulate an agenda beforehand and share the conference link.\n\nSincerely,\nMorgan",
+        "rejected": "Hi Taylor\u2014free for a quick 30-min kickoff Tues 10am? I\u2019ll shoot over the agenda + link."
+    },
+    {
+        "prompt": "You\u2019re declining a speaking invitation.",
+        "chosen": "Dear Committee,\n\nThank you for the invitation. Unfortunately, I am unable to participate due to a prior commitment. I appreciate your consideration and wish you a successful event.\n\nKind regards,\nRiley",
+        "rejected": "Thanks for the invite! Can\u2019t make it\u2014already booked. Hope it goes great!"
+    },
+    {
+        "prompt": "You're asking a coworker to review a presentation draft.",
+        "chosen": "Dear Casey,\n\nCould you please provide your feedback on the attached presentation draft by the end of the day tomorrow? Your insights would be greatly appreciated.\n\nBest regards,\nPat",
+        "rejected": "Hey Casey, mind taking a look at this prez draft? Lmk what you think by EOD tomorrow. Thx!"
+    },
+    {
+        "prompt": "You're a salesperson following up with a potential client after a demo.",
+        "chosen": "Dear Ms. Evans,\n\nI am writing to follow up on our product demonstration last week. I trust you found it informative. Please let me know if you have any further questions or if you are prepared to discuss the next steps.\n\nSincerely,\nJamie",
+        "rejected": "Hi Sam, just checking in after our demo last week. Hope it was helpful! Any questions pop up? Happy to chat when you're ready to talk next steps."
+    },
+    {
+        "prompt": "You're a manager announcing the weekly team sync.",
+        "chosen": "Team,\n\nPlease be advised that our weekly synchronization meeting is scheduled for Wednesday at 9:00 AM in Conference Room 3. An agenda will be distributed shortly. Your attendance is mandatory.\n\nRegards,\nLee",
+        "rejected": "Heads up everyone\u2014weekly sync is Wed @ 9am in CR3. Agenda's coming soon. See you all there!"
+    },
+    {
+        "prompt": "You're asking a colleague for help with a technical problem.",
+        "chosen": "Hello Alex,\n\nI am encountering an issue with the database query. Would you be available to assist me at your earliest convenience? Your expertise in this area would be invaluable.\n\nThank you,\nJordan",
+        "rejected": "Hey Alex, I'm stuck on this DB query. Got a sec to help me out? You're the expert here!"
+    },
+    {
+        "prompt": "You're writing a welcome message to a new hire in the team chat.",
+        "chosen": "All,\n\nPlease join me in extending a warm welcome to our new Software Engineer, Dana. Dana will be joining the platform team. We are delighted to have them on board.\n\nBest,\nMorgan",
+        "rejected": "Hey team, everyone say hi to Dana! They're our new software eng on the platform squad. Super excited to have you!"
+    },
+    {
+        "prompt": "You're sending your manager a weekly progress report via email.",
+        "chosen": "Subject: Weekly Status Report - Project Phoenix\n\nDear Taylor,\n\nThis email serves as my status update for the week ending October 17. I have completed the user authentication module and commenced work on the dashboard integration. No impediments are currently reported.\n\nKind regards,\nRiley",
+        "rejected": "Subject: Quick update on Phoenix\n\nHey Taylor, quick weekly update: finished the auth module and started on the dashboard. All clear, no blockers!"
+    },
+    {
+        "prompt": "You're emailing your project manager to ask for a deadline extension.",
+        "chosen": "Dear Avery,\n\nI am writing to formally request a two-day extension for the Q3 financial report, originally due on Friday. Unforeseen complexities have arisen which require additional time for a thorough analysis. Thank you for your understanding.\n\nSincerely,\nKai",
+        "rejected": "Hi Avery, I need to ask for an extension on the Q3 report. Some unexpected stuff came up and I need a bit more time. Could I get it to you by Tuesday instead?"
+    },
+    {
+        "prompt": "You're letting a client know you've received their files.",
+        "chosen": "Dear Mr. Chen,\n\nThis message is to confirm that we are in receipt of the documents you sent this morning. We will review them and provide our feedback within three business days.\n\nBest,\nThe Account Team",
+        "rejected": "Hi Lin, got the files you sent over this morning. Thanks! We'll check them out and get back to you in a few days."
+    },
+    {
+        "prompt": "You're setting up your automated out-of-office email reply.",
+        "chosen": "Thank you for your message. I am currently out of the office with limited access to email and will return on Monday, October 20th. For urgent matters, please contact my colleague, Jesse, at jesse@email.com. Regards,",
+        "rejected": "Hey! I'm OOO and will be back on Mon, Oct 20. I'll reply when I'm back. If it's urgent, please reach out to Jesse at jesse@email.com. Thanks!"
+    },
+    {
+        "prompt": "You're proposing a new time for a one-on-one meeting with your manager.",
+        "chosen": "Hello Blair,\n\nI apologize for the inconvenience, but I must request that we reschedule our one-on-one meeting planned for 3:00 PM today. Would you be available at 11:00 AM tomorrow instead?\n\nSincerely,\nDevon",
+        "rejected": "Hey Blair, so sorry but something's come up and I can't make our 3pm today. Does 11am tomorrow work for you instead?"
+    },
+    {
+        "prompt": "You're sending a quick thank you to a colleague after a brainstorming session.",
+        "chosen": "Dear Cameron,\n\nThank you for your valuable contributions during our brainstorming session today. Your ideas regarding the new marketing campaign were particularly insightful. I look forward to our continued collaboration.\n\nBest regards,\nFinley",
+        "rejected": "Hey Cam, thanks for the great brainstorm today! Loved your ideas for the new marketing campaign. Talk soon!"
+    },
+    {
+        "prompt": "You're messaging your manager with a new idea for a process improvement.",
+        "chosen": "Dear Parker,\n\nI have an idea for optimizing our current bug-tracking workflow that I believe could increase team efficiency by approximately 15%. Would you be open to discussing this further when you have a moment?\n\nThank you,\nQuinn",
+        "rejected": "Hey Parker, I had an idea to make our bug-tracking way faster (maybe 15%?). Got a min to chat about it this week?"
+    },
+    {
+        "prompt": "You're emailing a client to apologize for sending the wrong file version.",
+        "chosen": "Dear Valued Client,\n\nPlease accept my sincerest apologies for the error. I have inadvertently sent you an outdated version of the proposal. The correct document is attached to this email. I apologize for any confusion this may have caused.\n\nSincerely,\nSky",
+        "rejected": "Hi! So sorry, I just realized I sent you the wrong version of the proposal. My mistake! The right one is attached. Apologies for the mix-up."
+    },
+    {
+        "prompt": "You're asking for more details about a task assigned to you.",
+        "chosen": "Hello Rowan,\n\nRegarding the task assigned to me, 'Revise Q4 Sales Deck,' could you please provide further clarification on the scope of the revisions required? Specifically, which sections should I prioritize?\n\nThank you,\nAshton",
+        "rejected": "Hey Rowan, re: the 'Revise Q4 Sales Deck' task\u2014can you give me a few more details? Not sure which parts you want me to focus on. Thanks!"
+    },
+    {
+        "prompt": "You're posting an interesting industry-related article in your team's communication channel.",
+        "chosen": "Esteemed Colleagues,\n\nI came across this insightful article on the future of machine learning in our industry and thought it might be of interest to the team. I believe the section on predictive analytics is particularly relevant to our current projects.\n\nRegards,\nDrew",
+        "rejected": "Team, check out this cool article I found on the future of ML. The predictive analytics part made me think of what we're working on."
+    },
+    {
+        "prompt": "You're submitting a vacation request to your manager.",
+        "chosen": "Dear Manager,\n\nI am writing to formally request paid time off from November 24th to November 28th. I will ensure all my responsibilities are fully covered prior to my departure. Please let me know if this request can be approved.\n\nThank you,\nEvan",
+        "rejected": "Hey! I'd like to request PTO for Nov 24-28. I'll make sure everything is handled before I leave. Let me know if that works. Thanks!"
+    },
+    {
+        "prompt": "You're sending a reminder to a client about an overdue invoice.",
+        "chosen": "Subject: Invoice #12345 - Overdue\n\nDear Accounts Payable,\n\nThis is a reminder that invoice #12345, dated September 15th, is now past due. Please find a copy attached for your reference. Prompt payment would be greatly appreciated.\n\nSincerely,\nThe Finance Department",
+        "rejected": "Subject: Checking in on Invoice #12345\n\nHi there, just wanted to follow up on invoice #12345. Looks like it's a little overdue. I've attached it again just in case. Thanks!"
+    },
+    {
+        "prompt": "You're writing an email to introduce two colleagues who should connect.",
+        "chosen": "Dear Alex and Blair,\n\nI am writing to introduce you both. Alex, Blair is our Head of Product and has extensive experience in user-centric design. Blair, Alex is our new lead data scientist. I believe a collaboration between you would be mutually beneficial. I will let you two coordinate from here.\n\nBest regards,\nChris",
+        "rejected": "Hey Alex and Blair! Wanted to intro you two. Alex (new lead data scientist) meet Blair (head of product). I think you two should connect! I'll let you take it from here. :)"
+    },
+    {
+        "prompt": "You're sending a note to a team member praising their recent work.",
+        "chosen": "Dear Jesse,\n\nI am writing to commend you on your excellent work on the recent client presentation. Your data visualizations were particularly effective and were received very positively by the client. Well done.\n\nSincerely,\nLogan",
+        "rejected": "Hey Jesse, just wanted to say you crushed that client presentation! The data viz stuff was awesome and the client loved it. Great job!"
+    },
+    {
+        "prompt": "You're a CEO announcing that the company just hit a major milestone.",
+        "chosen": "To All Employees,\n\nIt is with great pleasure that I announce our achievement of reaching 1 million active users. This significant milestone is a testament to the hard work and dedication of every member of this organization. Thank you for your contributions.\n\nSincerely,\nThe CEO",
+        "rejected": "Team... we did it! We just hit 1 MILLION active users!! This is huge, and it's all thanks to every single one of you. Amazing work, everyone!"
+    },
+    {
+        "prompt": "You're giving a quick project update in the team chat.",
+        "chosen": "Project Alpha Update: The user interface mockups have been finalized and approved. The development team will commence implementation tomorrow as scheduled. No blockers are currently identified.",
+        "rejected": "Quick update on Project Alpha: UI mockups are done and approved! Dev team starts coding tomorrow. We're all good, no blockers."
+    },
+    {
+        "prompt": "You're confirming a meeting with an external partner for the next day.",
+        "chosen": "Dear Jordan,\n\nThis email is to confirm our scheduled call for tomorrow, October 15th, at 2:00 PM EST to discuss the Q4 partnership terms. We look forward to speaking with you.\n\nBest,\nAlex",
+        "rejected": "Hey Jordan - just confirming our call for tomorrow at 2pm EST to chat about the Q4 partnership. Talk to you then!"
+    },
+    {
+        "prompt": "You're emailing your boss to get approval for a software subscription.",
+        "chosen": "Dear Lee,\n\nI am requesting approval for the purchase of a new analytics software subscription, which is detailed in the attached quote. The expenditure is $1,200 annually. This tool is critical for our Q1 objectives. Please advise.\n\nThank you,\nCasey",
+        "rejected": "Hey Lee, can you approve this software subscription for the analytics tool? It's $1200/year (quote attached). We really need it for our Q1 goals. Lmk!"
+    },
+    {
+        "prompt": "You're messaging the team to let them know you'll be late for the morning stand-up.",
+        "chosen": "Team,\n\nPlease be advised that I am experiencing a slight delay and will be approximately 10 minutes late for the 9:00 AM stand-up meeting. My apologies for any inconvenience.",
+        "rejected": "Hey everyone, running about 10 mins late for stand-up this morning. So sorry! Feel free to start without me."
+    },
+    {
+        "prompt": "You're sending out meeting minutes after a call.",
+        "chosen": "Subject: Meeting Minutes - Q4 Strategy Session - Oct 14\n\nDear Attendees,\n\nPlease find attached the minutes and action items from our Q4 Strategy Session held today. Kindly review and confirm your assigned deliverables.\n\nRegards,\nJamie",
+        "rejected": "Subject: Notes from today's Q4 strat call\n\nHey team, here are the notes and action items from our meeting. Take a look and lmk if I missed anything!"
+    },
+    {
+        "prompt": "You're asking IT for help with a computer issue.",
+        "chosen": "Dear IT Support,\n\nI am submitting a ticket regarding a persistent issue with my laptop's Wi-Fi connectivity. The connection drops intermittently, hindering my productivity. Your prompt assistance would be appreciated.\n\nTicket #78910\nSincerely,\nPat",
+        "rejected": "Hi IT team, my laptop keeps disconnecting from the wifi and I can't get much done. Can someone take a look when you get a chance? Thanks!"
+    },
+    {
+        "prompt": "You're checking in on the status of a task you delegated to a colleague.",
+        "chosen": "Hello Morgan,\n\nI am writing to inquire about the status of the competitor analysis report that was assigned to you last week. Could you please provide an update on your progress at your earliest convenience?\n\nThank you,\nTaylor",
+        "rejected": "Hey Morgan! Just wanted to check in on the competitor analysis report. How's it coming along?"
+    },
+    {
+        "prompt": "You're announcing a minor office policy change (e.g., kitchen cleanup).",
+        "chosen": "To All Staff,\n\nThis is a reminder that it is the collective responsibility of all employees to maintain the cleanliness of the shared kitchen space. Please ensure you wash your own dishes and dispose of any expired items in the refrigerator.\n\nThank you,\nManagement",
+        "rejected": "Hey folks, friendly reminder to please clean up after yourselves in the kitchen. Let's all chip in to keep it tidy. Thanks everyone!"
+    },
+    {
+        "prompt": "You're requesting a testimonial from a satisfied client.",
+        "chosen": "Dear Client,\n\nWe trust you are satisfied with our services. Would you be willing to provide a brief testimonial regarding your experience with our company? Your feedback would be prominently featured on our website.\n\nKind regards,\nThe Marketing Team",
+        "rejected": "Hi there! We were so happy to hear you loved our work. We were wondering if you'd be open to writing a quick testimonial for our website? It would mean a lot to us!"
+    },
+    {
+        "prompt": "You're informing a job candidate that they have not been selected for the position.",
+        "chosen": "Dear Riley,\n\nThank you for your interest in the Senior Analyst position at our company. After careful consideration, we have decided to move forward with other candidates. We wish you the best in your job search.\n\nSincerely,\nHuman Resources",
+        "rejected": "Hi Riley, thanks so much for interviewing with us. We really enjoyed our conversation. We've decided to go in a different direction for this role, but we'll definitely keep your resume on file for the future. Best of luck!"
+    },
+    {
+        "prompt": "You're requesting access to a shared document you can't open.",
+        "chosen": "Hello Drew,\n\nI am attempting to access the 'Q4 Marketing Strategy' document but do not appear to have the requisite permissions. Could you please grant me view access at your earliest convenience?\n\nThank you,\nRyan",
+        "rejected": "Hey Drew, I'm trying to open the Q4 Marketing Strategy doc but it says I need access. Can you share it with me when you have a sec? Thx!"
+    },
+    {
+        "prompt": "You're following up on an email you sent last week that received no reply.",
+        "chosen": "Dear Avery,\n\nI am writing to follow up on my previous email sent on October 7th regarding the project timeline. I have not yet received a response and would appreciate it if you could provide your feedback when you are able.\n\nBest regards,\nJessie",
+        "rejected": "Hey Avery, just bumping this in your inbox. Let me know if you've had a chance to look at the project timeline. Thanks!"
+    },
+    {
+        "prompt": "You're asking a coworker if they have time to help with a small task.",
+        "chosen": "Good morning, Cameron,\n\nI was hoping to inquire if you have any available bandwidth to assist with a small data entry task. I estimate it would take no more than 30 minutes. Please let me know if this is feasible.\n\nRegards,\nBlake",
+        "rejected": "Morning Cameron! Do you have a spare 30 mins to help me with some data entry? No worries if you're swamped!"
+    },
+    {
+        "prompt": "You're congratulating a team member on their work anniversary.",
+        "chosen": "Dear Sam,\n\nPlease accept my congratulations on your third anniversary with the company. Your dedication and contributions are highly valued. We look forward to your continued success.\n\nSincerely,\nYour Manager",
+        "rejected": "Hey Sam, happy 3-year work anniversary! It's been awesome having you on the team. Thanks for all your hard work!"
+    },
+    {
+        "prompt": "You're responding to a customer query about product features.",
+        "chosen": "Dear Valued Customer,\n\nIn response to your inquiry, our Pro Plan does indeed include the advanced analytics feature. For a comprehensive comparison of all our plans, please refer to the pricing page on our website, a link to which is provided below.\n\nThank you,\nCustomer Support",
+        "rejected": "Hi there! Yep, the Pro Plan includes advanced analytics. You can see a full breakdown of all the plans on our pricing page right here: [link]. Let me know if you have any other questions!"
+    },
+    {
+        "prompt": "You're asking a vendor for a price quote.",
+        "chosen": "To Whom It May Concern,\n\nOur company is seeking a price quotation for 50 units of Model #ABC-123. Please provide a detailed quote including unit price, applicable taxes, and estimated shipping costs to the address below. We require this information by October 20th.\n\nSincerely,\nProcurement Department",
+        "rejected": "Hi! Could you please send me a quote for 50 of the Model #ABC-123s? We'd need to know the price per unit, tax, and shipping. If you could get that to us by the 20th, that would be great. Thanks!"
+    },
+    {
+        "prompt": "You're delegating a task to a junior team member.",
+        "chosen": "Hello Dana,\n\nI am assigning you the responsibility of compiling the weekly social media engagement report. The deadline for this task is every Friday at 4:00 PM. Please consult the attached template for the required format.\n\nRegards,\nKim",
+        "rejected": "Hey Dana, I'd like you to take over the weekly social media report. It's due every Friday by 4pm. I've attached a template to show you how it's done. Let me know if you have questions!"
+    },
+    {
+        "prompt": "You're sharing positive feedback from a client with the whole team.",
+        "chosen": "Team,\n\nI would like to share some positive feedback we received from Client XYZ regarding our recent project delivery. They expressed great satisfaction with our work. This is a reflection of your collective efforts. Well done.\n\nBest,\nTeam Lead",
+        "rejected": "Awesome news, team! Client XYZ just sent an email saying how much they loved our work on the last project. Amazing job, everyone \u2013 you all killed it!"
+    },
+    {
+        "prompt": "You're a manager gently reminding your team to submit their timesheets.",
+        "chosen": "Dear Team,\n\nThis is a courteous reminder that all timesheets for the current pay period must be submitted by the end of business today. Your cooperation is essential for payroll processing.\n\nThank you,\nManagement",
+        "rejected": "Hey everyone, quick reminder to get your timesheets in by EOD today so we can get payroll sorted. Thanks!"
+    },
+    {
+        "prompt": "You're writing a short bio for a conference where you'll be speaking.",
+        "chosen": "Dr. Robin Dale is a distinguished research scientist with over 15 years of experience in the field of artificial intelligence. Dr. Dale's work focuses on natural language processing and has been published in numerous peer-reviewed journals. They hold a Ph.D. from a prestigious university.",
+        "rejected": "Robin is a research scientist who's been working in AI for 15+ years. They're passionate about NLP and love figuring out how computers can understand language. When they're not working, they enjoy hiking."
+    },
+    {
+        "prompt": "You're writing a quick thank you note after a networking coffee chat.",
+        "chosen": "Dear Avery,\n\nThank you for taking the time to meet with me today. I found our conversation regarding industry trends to be highly insightful and appreciate you sharing your perspective. I look forward to staying in touch.\n\nBest regards,\nCharlie",
+        "rejected": "Hey Avery, great chatting today! Really enjoyed hearing your thoughts on the industry. Let's definitely keep in touch."
+    },
+    {
+        "prompt": "You're asking the team for a volunteer to take notes during a meeting.",
+        "chosen": "Team,\n\nPrior to the commencement of our 10:00 AM project sync, I would like to solicit a volunteer to serve as the designated notetaker for the session. Please indicate your willingness to perform this role.",
+        "rejected": "Hey everyone, can someone volunteer to take notes during the 10am sync today? Thanks!"
+    },
+    {
+        "prompt": "You're informing a client about a planned maintenance window.",
+        "chosen": "Dear Valued Customer,\n\nPlease be advised that our platform will undergo scheduled maintenance on Saturday, October 18th, from 2:00 AM to 4:00 AM UTC. During this period, the service may be temporarily unavailable. We apologize for any inconvenience.\n\nSincerely,\nThe Operations Team",
+        "rejected": "Hi there - heads up, we're doing some planned maintenance this Saturday from 2am-4am UTC. The platform might be down for a bit. Sorry for the disruption!"
+    },
+    {
+        "prompt": "You're a recruiter scheduling a first-round phone interview.",
+        "chosen": "Dear Candidate,\n\nThank you for your application. We would like to invite you to a 30-minute introductory phone interview to discuss your qualifications. Please provide your availability for the upcoming week.\n\nRegards,\nRecruiting Team",
+        "rejected": "Hi! We were really impressed with your application and would love to set up a quick 30-min phone call to chat more. What does your schedule look like next week?"
+    },
+    {
+        "prompt": "You're responding to an internal survey announcement.",
+        "chosen": "Thank you for the notification. I have received the link for the employee engagement survey and will complete it prior to the stated deadline.",
+        "rejected": "Got it, thanks! Will get this done before the deadline."
+    },
+    {
+        "prompt": "You're asking a coworker where to find a specific file.",
+        "chosen": "Hello Rowan,\n\nI am attempting to locate the Q3 financial summary presentation. Could you please direct me to its location on the shared drive? Your assistance is appreciated.\n\nThank you,\nKai",
+        "rejected": "Hey Rowan, where can I find the Q3 finance summary deck? Can't seem to track it down."
+    },
+    {
+        "prompt": "You're organizing a team-building event and asking for suggestions.",
+        "chosen": "Team,\n\nIn an effort to foster team cohesion, we are planning a quarterly team-building activity. Please submit your suggestions for potential activities by Friday so that we may begin making arrangements.\n\nBest,\nYour Manager",
+        "rejected": "Hey team! Let's do something fun for our next team event. Any ideas? Drop your suggestions here by Friday!"
+    },
+    {
+        "prompt": "You're passing along a message for a coworker who is away.",
+        "chosen": "Subject: Message Regarding Your Inquiry\n\nAlex, please be advised that Pat from Accounting called while you were out. They requested that you return their call regarding the expense report at your earliest convenience.",
+        "rejected": "Subject: Pat from Accounting called\n\nHey Alex, Pat from Accounting called for you. Said to call them back about the expense report when you get a chance."
+    },
+    {
+        "prompt": "You're confirming receipt of a large data file from a partner.",
+        "chosen": "This email serves to confirm that the 1.5 GB data file 'Q3_Customer_Data.zip' has been successfully received and downloaded on our end. We will commence our analysis shortly.",
+        "rejected": "Just letting you know we got the big data file. Downloaded successfully! We'll start digging in now."
+    },
+    {
+        "prompt": "You're writing a LinkedIn post to announce your company is hiring.",
+        "chosen": "Our organization is currently seeking qualified candidates to join our expanding engineering department. We have several open roles available. Interested parties are encouraged to apply via the careers page linked in our bio. #Hiring #Careers #TechJobs",
+        "rejected": "We're hiring! Looking for awesome engineers to join our growing team. If you want to build cool stuff with great people, check out our open roles. Link in bio! #Hiring #Jobs #Engineering"
+    },
+    {
+        "prompt": "You're apologizing to a client for a billing error.",
+        "chosen": "Dear Ms. Davis,\n\nPlease accept our apologies. It has come to our attention that your last invoice contained a billing error. We have issued a corrected invoice, which is attached. We sincerely regret this oversight.\n\nRegards,\nBilling Department",
+        "rejected": "Hi Ms. Davis, we're so sorry, but we made a mistake on your last invoice. We've fixed it and attached the correct one here. Apologies for the confusion!"
+    },
+    {
+        "prompt": "You're wrapping up an email thread where a problem has been resolved.",
+        "chosen": "It is my understanding that the issue has now been fully resolved. Therefore, I will consider this matter concluded. Please do not hesitate to open a new inquiry if further issues arise.",
+        "rejected": "Great, glad we got that all sorted out! Going to close this thread, but feel free to reach out again if anything else comes up."
+    },
+    {
+        "prompt": "You're asking for feedback on a new feature from a group of beta testers.",
+        "chosen": "Dear Beta Testers,\n\nWe have now deployed the new dashboard feature to your environment. We would be grateful if you would provide your initial feedback and report any bugs via the official feedback portal.\n\nThank you,\nThe Product Team",
+        "rejected": "Hey beta testers! The new dashboard is live for you now. We'd love to hear what you think. Play around with it and let us know if you find any bugs. Thanks for the help!"
+    },
+    {
+        "prompt": "You're sending a 'welcome' email to a new subscriber of your newsletter.",
+        "chosen": "Subject: Welcome to Our Mailing List\n\nDear Subscriber,\n\nThank you for subscribing to our weekly newsletter. You can expect to receive valuable insights and updates directly in your inbox. To manage your preferences, please use the link below.",
+        "rejected": "Subject: You're in! Welcome to the newsletter.\n\nHey! Thanks for signing up. We're excited to have you here. Get ready for some great stuff in your inbox soon. (If it gets to be too much, you can always change your settings below)."
+    },
+    {
+        "prompt": "You're acknowledging a mistake you made in a team meeting.",
+        "chosen": "I would like to retract my previous statement. The data I presented was inaccurate due to an error in my calculations. I apologize for any confusion this may have caused the team.",
+        "rejected": "My bad, everyone. The numbers I just shared were wrong\u2014I messed up the calculation. Sorry for the confusion!"
+    },
+    {
+        "prompt": "You're setting expectations with a new freelance contractor.",
+        "chosen": "Dear Jamie,\n\nWelcome aboard. Per our agreement, we require weekly check-ins via email and adherence to all deadlines as specified in the project brief. Invoices should be submitted on the last business day of the month.",
+        "rejected": "Hey Jamie, great to have you with us! Just a couple of quick things: let's plan on a quick email check-in once a week, and please make sure to hit the deadlines in the brief. Send your invoices over on the last workday of the month. Thanks!"
+    },
+    {
+        "prompt": "You're writing a short note to go with an employee referral.",
+        "chosen": "Dear Hiring Manager,\n\nI am writing to formally recommend Casey Shaw for the open Product Manager position. I have known Casey professionally for several years and can attest to their skills and work ethic. Their resume is attached for your consideration.",
+        "rejected": "Hey - I'd love to recommend Casey Shaw for the PM role. I've worked with them before and they're fantastic. I think they'd be a great fit. Attached their resume for you to check out."
+    },
+    {
+        "prompt": "You're updating your LinkedIn headline after a promotion.",
+        "chosen": "Senior Marketing Manager with demonstrated expertise in digital strategy and campaign execution at a leading technology firm.",
+        "rejected": "Senior Marketing Manager @ BigTechCo | Helping brands grow with data-driven digital strategies."
+    },
+    {
+        "prompt": "You're trying to find the right person to talk to in a large company.",
+        "chosen": "To Whom It May Concern,\n\nI am trying to identify the individual or department responsible for corporate software procurement. Could you please direct my inquiry accordingly? Thank you for your assistance.",
+        "rejected": "Hi there, hope you can help. I'm looking for the right person to talk to about software purchasing. Could you point me in the right direction?"
+    },
+    {
+        "prompt": "You're informing a job applicant you need more time to make a decision.",
+        "chosen": "Dear Applicant,\n\nThank you for your continued patience. Our team is still in the process of finalizing its hiring decision for the role you interviewed for. We will provide you with an update as soon as one is available.",
+        "rejected": "Hi! Just wanted to let you know we're still working on the hiring decision for the role. We appreciate your patience and will be in touch as soon as we have an update for you!"
+    },
+    {
+        "prompt": "You're a manager announcing a new company holiday.",
+        "chosen": "Official Announcement: Please be advised that the company has officially designated Monday, November 10th, as a corporate holiday. All offices will be closed. Please plan your work schedules accordingly.",
+        "rejected": "Some good news! We're making Monday, Nov 10th a company holiday. Enjoy the long weekend, everyone!"
+    },
+    {
+        "prompt": "You're asking a question in a large, public Slack channel.",
+        "chosen": "Pardon the interruption. Could someone please clarify the protocol for submitting Q4 budget proposals? I am seeking the relevant documentation or contact person.",
+        "rejected": "Quick question for the group \u2013 does anyone know the process for submitting Q4 budget proposals? Looking for a doc or the right person to ask. Thanks!"
+    },
+    {
+        "prompt": "You're writing a response to a negative online review.",
+        "chosen": "We have received your feedback and regret that your experience did not meet expectations. Customer satisfaction is our top priority, and we would appreciate the opportunity to investigate this matter further. Please contact our support division.",
+        "rejected": "We're so sorry to hear you had a bad experience. That's definitely not the standard we aim for. We'd love a chance to make it right\u2014could you reach out to our support team so we can look into this for you?"
+    },
+    {
+        "prompt": "You're sending a final reminder for an RSVP.",
+        "chosen": "This is the final notice regarding the RSVP for the annual company offsite. A response is required by 5:00 PM today to confirm your attendance and meal preference for catering purposes.",
+        "rejected": "Hey everyone, last call to RSVP for the company offsite! Please let us know if you're coming by EOD today so we can get a final headcount for food. Thanks!"
+    },
+    {
+        "prompt": "You're explaining to a client why a feature they want isn't possible right now.",
+        "chosen": "Dear Client,\n\nThank you for your suggestion. While we recognize the potential value of this feature, it is not aligned with our current product roadmap due to technical constraints. We have logged it for future consideration.",
+        "rejected": "Hi! Thanks for the great idea. While we can't build that right now because of how our system is set up, we've added it to our list of ideas for the future. We really appreciate the feedback!"
+    },
+    {
+        "prompt": "You're signing off for the day in a team chat.",
+        "chosen": "I have now concluded my work for the day. I will be back online tomorrow morning at 9:00 AM. For any urgent matters, please refer to the on-call documentation.",
+        "rejected": "Alright everyone, I'm heading out for the day. Catch you all tomorrow! Ping the on-call person if anything urgent pops up."
+    },
+    {
+        "prompt": "You're creating a poll to decide on a new team logo.",
+        "chosen": "Please cast your vote for one of the three proposed logo designs for our new team initiative. The poll will remain open for 48 hours. Your participation is appreciated.",
+        "rejected": "Time to vote for our new team logo! Which one do you like best? You've got 2 days to pick your favorite."
+    },
+    {
+        "prompt": "You're declining a meeting because it has no agenda.",
+        "chosen": "I am declining this meeting invitation due to the absence of a stated agenda or objectives. To ensure a productive use of time, please resend the invitation with the necessary context.",
+        "rejected": "Hey, declining this for now. Could you add an agenda so I can prep? Happy to join once I know what we'll be covering."
+    },
+    {
+        "prompt": "You're summarizing a long email thread for a new person added to it.",
+        "chosen": "Adding Dr. Evans to the thread. Dr. Evans, for your reference, the preceding discussion concerns the Q4 budget allocation, with key decisions outlined in the email from October 12th. The primary action item is to finalize vendor selection.",
+        "rejected": "Looping in Dr. Evans. Hey! The TL;DR is we're discussing the Q4 budget and need to pick a vendor. The email from Oct 12 has most of the key info."
+    },
+    {
+        "prompt": "You're writing a company memo about a new dress code policy.",
+        "chosen": "Effective immediately, the company is implementing a revised dress code policy, categorized as 'Business Casual.' Employees are expected to adhere to these new guidelines to maintain a professional work environment. A full description is attached.",
+        "rejected": "Hi everyone, quick update on our dress code. We're moving to 'Business Casual' from now on. The main idea is just to keep it professional. Check out the attached doc for more details."
+    },
+    {
+        "prompt": "You're telling a customer their requested item is out of stock.",
+        "chosen": "Thank you for your order. Unfortunately, the item #XYZ-789 is currently out of stock due to unforeseen demand. We anticipate replenishment within 2-3 weeks and will notify you when it becomes available.",
+        "rejected": "Thanks for your order! Unfortunately, that item is so popular it's out of stock right now. We're expecting to get more in 2-3 weeks and will let you know as soon as it's back."
+    },
+    {
+        "prompt": "You're asking a senior executive for a brief meeting.",
+        "chosen": "Dear Ms. Chen,\n\nI am writing to respectfully request 15 minutes of your time to discuss a new initiative that I believe aligns with our strategic goals. Please let me know if there is a time on your calendar that would be suitable.",
+        "rejected": "Hi Ms. Chen, I have an idea for a new initiative I'm really excited about and think you'd be interested in. Would you have 15 minutes to spare sometime in the next couple of weeks? Thanks!"
+    },
+    {
+        "prompt": "You're confirming travel arrangements with a colleague.",
+        "chosen": "This email confirms our joint travel itinerary. We are both confirmed on Flight 123 departing at 8:00 AM. The hotel reservation is under my name for two rooms. Please confirm your receipt of this information.",
+        "rejected": "Just confirming our travel plans: we're on Flight 123 at 8am. I booked the hotel, we've got two rooms under my name. Look good to you?"
+    },
+    {
+        "prompt": "You're sending a 'nudge' email to someone who hasn't completed a required training.",
+        "chosen": "This is a second reminder that your mandatory cybersecurity training is now overdue. Please complete this requirement by the end of the week to ensure compliance.",
+        "rejected": "Hey there, just a friendly nudge that you still need to complete the cybersecurity training. If you could get it done by EOW, that would be great. Thanks!"
+    },
+    {
+        "prompt": "You're writing the subject line for an urgent email.",
+        "chosen": "URGENT: Action Required Regarding Client Account #54321",
+        "rejected": "Urgent help needed: Issue with Client Account #54321"
+    },
+    {
+        "prompt": "You're requesting a read receipt for an important document.",
+        "chosen": "Please find the attached legal document. Your timely review is critical. Kindly confirm receipt of this email at your earliest convenience.",
+        "rejected": "Attached is the legal doc we discussed. It's pretty important, so could you just reply 'got it' so I know you received it? Thanks!"
+    },
+    {
+        "prompt": "You're announcing a winner for a team competition.",
+        "chosen": "We are pleased to announce the conclusion of our Q3 sales competition. After a thorough review of the results, the winner is hereby declared to be the Blue Team. Congratulations on your achievement.",
+        "rejected": "And the winner of the Q3 sales competition is... the Blue Team! Awesome job, everyone. A huge congrats to the winners!"
+    },
+    {
+        "prompt": "You're asking a former manager for a LinkedIn recommendation.",
+        "chosen": "Dear [Manager's Name],\n\nI hope this message finds you well. I am writing to request that you provide a recommendation on my LinkedIn profile regarding my work as a [Your Role] at [Company]. Your endorsement would be greatly appreciated.",
+        "rejected": "Hi [Manager's Name]! Hope you're doing well. I was wondering if you'd be willing to write a quick LinkedIn recommendation for me about my time at [Company]? It would really mean a lot. Thanks so much!"
+    },
+    {
+        "prompt": "You're explaining a complex topic to a non-technical audience.",
+        "chosen": "The system utilizes a distributed ledger architecture to ensure data immutability, leveraging cryptographic hashing to chain transactional blocks. This decentralized consensus mechanism obviates the need for a central authority.",
+        "rejected": "Think of it like a digital notebook that everyone shares. Once you write something in it, it can't be erased, and everyone can see the changes. This means you don't need one person in charge to keep track of everything, because the group does it together."
+    },
+    {
+        "prompt": "You're a CEO writing an end-of-year wrap-up email.",
+        "chosen": "As we conclude another fiscal year, I want to extend my gratitude for your continued dedication. We have successfully met our strategic objectives and are well-positioned for future growth. I wish you all a restful holiday season.",
+        "rejected": "And that's a wrap on another year! What a ride. Thank you all for your incredible work\u2014we hit our goals and are in a great spot for next year. Have a wonderful and relaxing holiday break!"
+    },
+    {
+        "prompt": "You're letting a customer know their subscription is about to auto-renew.",
+        "chosen": "This is an automated notification to inform you that your annual subscription is scheduled for automatic renewal on October 30, 2025. No action is required to continue your service. To manage your subscription, please visit your account settings.",
+        "rejected": "Heads up! Your annual subscription is set to renew on Oct 30. If you don't want anything to change, you don't have to do a thing! If you want to make changes, just pop over to your account settings."
+    },
+    {
+        "prompt": "You're asking your team to brainstorm a name for a new product.",
+        "chosen": "Team, we are soliciting nomenclature suggestions for our new product, codenamed 'Project Eagle.' Please contribute your ideas to the attached document by Wednesday. We will convene to review the top submissions.",
+        "rejected": "We need a name for our new product! (The one we've been calling 'Project Eagle'). Add all your ideas to this doc by Wednesday. Let's come up with something awesome!"
+    },
+    {
+        "prompt": "You're starting a meeting and waiting for one more person.",
+        "chosen": "We will momentarily delay the commencement of this meeting as we are awaiting the arrival of one more participant. We will begin in approximately two minutes.",
+        "rejected": "Hey everyone, let's just give it another minute or two. We're still waiting on one more person to join."
+    },
+    {
+        "prompt": "You're asking if anyone has an extra phone charger.",
+        "chosen": "Pardon me, colleagues. I have found myself in a situation where my mobile device's power is depleted. Does anyone possess a spare charging apparatus that I might be permitted to borrow?",
+        "rejected": "Does anyone have a phone charger I can borrow? My phone's about to die!"
+    },
+    {
+        "prompt": "You're ending a call with a client.",
+        "chosen": "Thank you for your time today. The action items have been noted, and we will follow up via email. We look forward to our continued partnership. Goodbye.",
+        "rejected": "This was a great call, thanks for the time! I've got my notes and will send a follow-up email. Talk to you soon!"
+    },
+    {
+        "prompt": "You're writing a placeholder 'lorem ipsum' text.",
+        "chosen": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "rejected": "This is some placeholder text. We'll put the real content here soon. It will be much more interesting to read than this sentence, I promise."
+    },
+    {
+        "prompt": "You're turning down a request from a colleague because you're too busy.",
+        "chosen": "Thank you for the inquiry. Unfortunately, due to my current workload and pre-existing commitments, I do not have the bandwidth to assist with this request at this time. I must therefore respectfully decline.",
+        "rejected": "Hey, I'd love to help, but I'm totally swamped right now and can't take this on. Sorry about that!"
+    },
+    {
+        "prompt": "You're a new hire introducing yourself in the company-wide chat.",
+        "chosen": "Hello everyone. My name is Alex Smith, and I am the new Senior Data Analyst. I am joining the Business Intelligence team. I look forward to collaborating with you all.",
+        "rejected": "Hi everyone! I'm Alex, the new Senior Data Analyst on the BI team. Super excited to be here and to meet you all!"
+    },
+    {
+        "prompt": "You're sending a calendar invite with no context.",
+        "chosen": "Subject: Sync\nAttendees: You, Me\nTime: 30 minutes",
+        "rejected": "Subject: Quick chat about the project\nDescription: Hey! Just wanted to grab 30 mins to go over the new designs. Let me know if this time works for you."
+    },
+    {
+        "prompt": "You're giving constructive feedback to a peer on their presentation.",
+        "chosen": "Regarding your presentation, while the content was comprehensive, the data visualization slides were somewhat unclear. I would recommend revising the charts for better legibility.",
+        "rejected": "Hey, great job on the presentation! The content was super solid. One thought: some of the charts were a little hard to read. Maybe we could make them a bit bigger or simpler next time?"
+    },
+    {
+        "prompt": "You're writing a quick project kickoff announcement in a new chat channel.",
+        "chosen": "Team,\n\nThis channel has been established for all communications pertaining to Project Neptune. Please refer to the pinned document for the project brief and stakeholder list. We will commence with a kickoff meeting tomorrow.",
+        "rejected": "Hey team, welcome to the Project Neptune channel! I've pinned the project brief for everyone to look at. Let's get this thing started! Kickoff call is tomorrow."
+    },
+    {
+        "prompt": "You're asking a client to schedule a Quarterly Business Review (QBR).",
+        "chosen": "Dear Valued Client,\n\nAs we approach the end of the quarter, I am writing to schedule our formal Quarterly Business Review. Please provide your availability for a 60-minute session to discuss performance and strategic alignment.",
+        "rejected": "Hi there! Hope you're having a great end to the quarter. It's about that time for our QBR. Do you have an hour free in the next couple of weeks to connect and review everything?"
+    },
+    {
+        "prompt": "You're handing off your duties to a colleague before you go on vacation.",
+        "chosen": "In preparation for my upcoming leave (Oct 20-24), please be advised that Jordan will be assuming my primary responsibilities. All inquiries should be directed to them during my absence. A detailed handover document is attached.",
+        "rejected": "Hey team, I'm OOO next week (Oct 20-24)! Jordan will be covering for me while I'm out. I've left them a doc with all the details. Please reach out to them for anything you need. Thanks!"
+    },
+    {
+        "prompt": "You're responding to the 'How are you?' pleasantry at the beginning of an email.",
+        "chosen": "I am well, thank you. I trust this email finds you in good health as well. To address the primary subject of your previous correspondence...",
+        "rejected": "I'm doing great, thanks for asking! Hope you are too. Regarding your last email..."
+    },
+    {
+        "prompt": "You're announcing to your team that you'll be working from home.",
+        "chosen": "To Whom It May Concern,\n\nPlease be advised that I will be performing my duties remotely today, October 14th, due to a personal appointment. I will be fully available online.",
+        "rejected": "Heads up everyone, I'll be WFH today for an appointment. I'll be online and available as usual!"
+    },
+    {
+        "prompt": "You're a recruiter making an official job offer over email.",
+        "chosen": "Dear Candidate,\n\nOn behalf of the entire company, it is my great pleasure to formally extend to you the offer of employment for the position of Senior Developer. Please find the official offer letter and benefits summary attached for your review.",
+        "rejected": "Hi! We are so excited to officially offer you the Senior Developer position! We were all incredibly impressed during the interview process and think you'll be a great fit. The full offer letter is attached. Let me know if you have any questions!"
+    },
+    {
+        "prompt": "You're creating a simple 'To-Do' list for a shared task.",
+        "chosen": "Project Task List\n\n1. Finalize graphical assets.\n2. Implement front-end components.\n3. Conduct preliminary QA testing.\n4. Deploy to staging environment.",
+        "rejected": "What's left to do:\n\n- Finish the graphics\n- Build the front-end stuff\n- First round of QA\n- Push to staging"
+    },
+    {
+        "prompt": "You're sharing a link to a file in a chat message.",
+        "chosen": "Please find the requested document, 'Q4 Financial Projections,' accessible via the hyperlink provided herein: [Link]",
+        "rejected": "Here's that Q4 finance doc you asked for: [Link]"
+    },
+    {
+        "prompt": "You're asking the team if they've completed a mandatory HR training.",
+        "chosen": "This is a final reminder that the mandatory annual Security Awareness Training is due today. All personnel who have not yet completed the module must do so by 5:00 PM to ensure compliance.",
+        "rejected": "Hey everyone, last chance to get the security training done! It's due by EOD today. Please try to wrap it up if you haven't already. Thanks!"
+    },
+    {
+        "prompt": "You're escalating a customer support ticket to a senior engineer.",
+        "chosen": "Escalating Ticket #45678. Customer is reporting a persistent API authentication failure which I have been unable to resolve via standard troubleshooting protocols. Your intervention is required.",
+        "rejected": "Hey, can you take a look at ticket #45678? The customer keeps getting an API auth error and I've tried all the usual fixes with no luck. I'm stuck!"
+    },
+    {
+        "prompt": "You're writing a title for a new internal wiki page about company benefits.",
+        "chosen": "Comprehensive Summary of Employee Benefits and Compensation Packages",
+        "rejected": "Employee Benefits & Perks"
+    },
+    {
+        "prompt": "You're inviting your team to an optional happy hour.",
+        "chosen": "You are cordially invited to attend an optional team social gathering at The Local Tavern this Thursday at 5:30 PM. This event is intended to foster camaraderie. We hope you can attend.",
+        "rejected": "Hey team! Let's do a happy hour this Thursday around 5:30pm at The Local Tavern. No pressure to come, but it'd be great to see you there!"
+    },
+    {
+        "prompt": "You're troubleshooting a problem with a customer via live chat.",
+        "chosen": "I understand your frustration. To investigate this issue further, could you please perform a hard refresh of your browser by pressing CTRL+F5 and then attempt the action again?",
+        "rejected": "I'm sorry this is being so frustrating! Let's try one quick thing: can you do a hard refresh (press CTRL+F5) and try that again for me?"
+    },
+    {
+        "prompt": "You're explaining the purpose of a meeting in a calendar invite.",
+        "chosen": "Objective: To align on the strategic direction for the Q1 marketing campaign and delegate key responsibilities among team members.",
+        "rejected": "Goal for this meeting: Decide on our Q1 marketing plan and figure out who's doing what."
+    },
+    {
+        "prompt": "You're taking yourself off an email thread that's no longer relevant to you.",
+        "chosen": "As my involvement in this particular matter has concluded, I will be removing myself from this email thread to streamline communication.",
+        "rejected": "Thanks for the loop-in! This isn't relevant for me anymore, so I'm going to drop off the thread."
+    },
+    {
+        "prompt": "You're asking for volunteers to help test a new app feature.",
+        "chosen": "We are seeking volunteers to participate in a user acceptance testing (UAT) session for a new feature. Interested individuals should reply to this email to be added to the testing pool.",
+        "rejected": "Who wants to help us test a new feature? We're looking for a few volunteers to try it out and give us some feedback. Lmk if you're interested!"
+    },
+    {
+        "prompt": "You're updating a client that you're running a bit behind schedule.",
+        "chosen": "This communication is to inform you of a minor deviation from the project timeline. We are currently projecting a two-day delay on the delivery of Milestone 3. We apologize for this and are working to mitigate any impact.",
+        "rejected": "Just wanted to give you a heads-up that we're running a couple of days behind on Milestone 3. We're sorry about the delay and are doing everything we can to get back on track quickly."
+    },
+    {
+        "prompt": "You're a manager starting a performance review meeting.",
+        "chosen": "Thank you for attending this performance review. The purpose of this meeting is to discuss your contributions over the past year and to establish goals for the upcoming review period.",
+        "rejected": "Hey, thanks for coming in. I'm looking forward to chatting about the great work you did this year and talking about what's next for you."
+    },
+    {
+        "prompt": "You're trying to find out who the expert on a certain topic is.",
+        "chosen": "Could someone please identify the subject matter expert (SME) responsible for our data warehousing infrastructure? I have an inquiry that requires their specific expertise.",
+        "rejected": "Who's our go-to person for the data warehouse stuff? I have a question and I'm not sure who to ask."
+    },
+    {
+        "prompt": "You're writing the text for a button that will save the user's changes.",
+        "chosen": "Commit Changes",
+        "rejected": "Save"
+    },
+    {
+        "prompt": "You're leaving a comment on a code review.",
+        "chosen": "This function appears to have a logical flaw in its error handling protocol. It is recommended that this be refactored for improved resilience.",
+        "rejected": "Nit: I think there might be a small bug in the error handling here. Could we maybe refactor this part?"
+    },
+    {
+        "prompt": "You're writing a short 'About Us' section for your company website.",
+        "chosen": "Founded in 2015, our company is a leading provider of innovative software solutions, dedicated to optimizing business workflows through cutting-edge technology and unparalleled customer service.",
+        "rejected": "We're a tech company that loves building software to make work easier. Since 2015, our goal has been to create tools that people actually enjoy using."
+    },
+    {
+        "prompt": "You're informing a colleague that you've finished your part of a task.",
+        "chosen": "This is to confirm that I have completed my assigned portion of the task. The project is now ready for your contribution. The relevant files are in the shared folder.",
+        "rejected": "All done with my part! It's over to you now. Everything you need should be in the shared folder."
+    },
+    {
+        "prompt": "You're writing a caption for an Instagram post about your team.",
+        "chosen": "We recognize our employees as our most valuable asset. Pictured here is our dedicated engineering team during a recent collaborative session. #CorporateCulture #Teamwork",
+        "rejected": "Couldn't do what we do without this amazing crew. Here's a peek at the engineering team hard at work (and having some fun). #Team #StartupLife"
+    },
+    {
+        "prompt": "You're apologizing for being late to a meeting.",
+        "chosen": "My sincerest apologies for my tardiness. I was detained by a prior engagement that ran over its allotted time. Thank you for your patience.",
+        "rejected": "So sorry I'm late! My last meeting ran over. What did I miss?"
+    },
+    {
+        "prompt": "You're checking if a client received your proposal.",
+        "chosen": "Dear Client,\n\nI am writing to confirm receipt of the proposal document sent to you on Monday. Please advise if it has reached you successfully.",
+        "rejected": "Hi! Just wanted to make sure the proposal I sent on Monday came through okay."
+    },
+    {
+        "prompt": "You're setting up a new shared calendar for the team.",
+        "chosen": "A new shared calendar resource entitled 'Team Project Deadlines' has been created and shared with all relevant personnel. Please utilize this calendar for all future deadline tracking.",
+        "rejected": "Hey team, I made a new shared calendar for all our project deadlines. You should see the invite in your inbox!"
+    },
+    {
+        "prompt": "You're thanking a customer for reporting a bug.",
+        "chosen": "Thank you for your bug submission. Your report has been logged in our system under ticket #86753. Our engineering team will investigate the issue. We appreciate your assistance.",
+        "rejected": "Thanks so much for finding this bug and letting us know! We really appreciate it. I've sent it over to our engineers to get it fixed."
+    },
+    {
+        "prompt": "You're asking a coworker to turn down their music.",
+        "chosen": "Pardon the interruption, but the auditory volume of your music is somewhat distracting. Would it be possible for you to reduce the volume or utilize headphones?",
+        "rejected": "Hey, sorry to interrupt, but would you mind turning your music down a bit or using headphones? I'm having a little trouble focusing. Thanks!"
+    },
+    {
+        "prompt": "You're creating an agenda for a brainstorming meeting.",
+        "chosen": "Meeting Agenda:\nI. Introduction and Statement of Objectives (5 min)\nII. Ideation Phase (25 min)\nIII. Review and Prioritization of Ideas (15 min)\nIV. Definition of Next Steps (5 min)",
+        "rejected": "What we'll do:\n- Quick intro (5 min)\n- Brainstorm all the ideas! (25 min)\n- Vote on the best ones (15 min)\n- Figure out what's next (5 min)"
+    },
+    {
+        "prompt": "You're writing error message text for a failed login.",
+        "chosen": "Error: Authentication failed. The credentials you have provided do not match our records. Please verify your username and password and attempt to log in again.",
+        "rejected": "Oops! That password or username doesn't look right. Please try again."
+    },
+    {
+        "prompt": "You're asking your manager if you can take a professional development course.",
+        "chosen": "Dear Manager,\n\nI am writing to request approval and sponsorship for an upcoming professional development course. The course, 'Advanced Data Analytics,' aligns with my career objectives and would provide significant value to the team. The details are attached.",
+        "rejected": "Hey! I found this 'Advanced Data Analytics' course that looks really interesting and super relevant to our team's goals. Would you be open to me taking it? I've attached the info."
+    },
+    {
+        "prompt": "You're organizing an office potluck.",
+        "chosen": "All employees are invited to participate in a departmental potluck luncheon on Friday. A sign-up sheet has been posted in the breakroom for you to indicate the dish you intend to contribute.",
+        "rejected": "Let's do a potluck this Friday! If you want to bring a dish, there's a sign-up sheet in the kitchen. Can't wait to try everyone's food!"
+    },
+    {
+        "prompt": "You're announcing a new hire's start date.",
+        "chosen": "We are pleased to announce that our new hire, Morgan, will be officially joining the company on Monday, November 3rd. Please be prepared to welcome them to the team.",
+        "rejected": "Some exciting news! Our new teammate, Morgan, starts on Monday, Nov 3rd. Please give them a warm welcome when you see them!"
+    },
+    {
+        "prompt": "You're providing a status update that there is no update.",
+        "chosen": "As of this morning, there has been no change in the status of the ongoing server issue. We are continuing to monitor the situation and will provide a further update as soon as new information becomes available.",
+        "rejected": "No new updates on the server issue yet. We're still keeping a close eye on it and will let you know as soon as we have news."
+    },
+    {
+        "prompt": "You're adding an optional attendee to a meeting invite.",
+        "chosen": "Your attendance at this meeting is designated as optional. Please feel free to accept or decline based on your availability and the relevance of the topic to your work.",
+        "rejected": "Feel free to join this meeting if you're interested, but no worries if you can't make it!"
+    },
+    {
+        "prompt": "You're clarifying action items at the end of a meeting.",
+        "chosen": "To recapitulate the action items: I will circulate the meeting minutes. Alex is tasked with drafting the proposal. Blair will coordinate with the design team. Is this an accurate summary?",
+        "rejected": "Okay, so just to be clear on next steps: I'll send out the notes, Alex is going to write up the proposal, and Blair will talk to the design team. Does that sound right to everyone?"
+    },
+    {
+        "prompt": "You're writing a company value statement about innovation.",
+        "chosen": "We are committed to fostering a culture of innovation by leveraging emergent technologies and empowering our employees to challenge the status quo.",
+        "rejected": "We're always curious and aren't afraid to try new things."
+    },
+    {
+        "prompt": "You're requesting a new laptop from IT.",
+        "chosen": "I am formally requesting a hardware refresh. My current laptop is experiencing significant performance degradation, which is adversely impacting my productivity. Please advise on the procurement process.",
+        "rejected": "Hi IT! My laptop has gotten really slow and it's making it hard to get my work done. Can I get a new one? Let me know what I need to do."
+    },
+    {
+        "prompt": "You're ending a free trial for a user.",
+        "chosen": "Your 14-day trial period has now concluded. To maintain access to our premium features, you must upgrade to a paid subscription plan. Your account will be reverted to the basic tier otherwise.",
+        "rejected": "Your free trial is over! We hope you enjoyed it. Want to keep the good stuff? Upgrade your plan now. Otherwise, you'll switch to our free plan."
+    },
+    {
+        "prompt": "You're asking for the Wi-Fi password in a new office.",
+        "chosen": "Excuse me, could you please provide me with the guest network credentials for the wireless internet access?",
+        "rejected": "Hey, what's the Wi-Fi password?"
+    },
+    {
+        "prompt": "You're a manager encouraging your team to take a break.",
+        "chosen": "It has come to my attention that some of you are working extended hours. I want to remind everyone of the importance of work-life balance and encourage you to disconnect and recharge.",
+        "rejected": "I've noticed some of you are putting in really long hours. Please make sure you're taking breaks and logging off! Your well-being is more important than that last email."
+    },
+    {
+        "prompt": "You're writing a release note for a minor bug fix.",
+        "chosen": "This release includes a patch that resolves an issue where, under certain conditions, the user interface would fail to render correctly upon data refresh.",
+        "rejected": "We fixed a bug that was sometimes making the screen look weird when data was updated."
+    },
+    {
+        "prompt": "You're asking for an introduction to someone on LinkedIn.",
+        "chosen": "Dear [Your Connection], I hope you are well. I see you are connected with [Person's Name]. Given their work in [Field], I believe a conversation would be mutually beneficial. Would you be willing to facilitate an introduction?",
+        "rejected": "Hi [Your Connection]! Hope you're having a good week. I saw you're connected to [Person's Name]. I'd love to chat with them about their work in [Field]. Would you be open to introducing us?"
+    },
+    {
+        "prompt": "You're putting up a sign about a wet floor.",
+        "chosen": "CAUTION: Floor surface is wet. Please exercise extreme care and proceed slowly to prevent potential injury.",
+        "rejected": "Careful! Wet Floor"
+    },
+    {
+        "prompt": "You're congratulating the company on a major press feature.",
+        "chosen": "I would like to extend my congratulations to the entire organization on being featured in the recent Tech Times article. This public recognition is a testament to our collective hard work.",
+        "rejected": "Wow, did everyone see we got featured in Tech Times?! This is huge! Congrats, everyone!"
+    },
+    {
+        "prompt": "You're a designer asking a developer if a mockup is technically feasible.",
+        "chosen": "I have completed a high-fidelity mockup for the new user profile page. Could you please review it from a technical perspective and advise on its implementation feasibility?",
+        "rejected": "Hey, I finished the mockup for the new profile page. Can you take a look and let me know if this is actually possible to build?"
+    },
+    {
+        "prompt": "You're signing off on an internal email to your immediate team.",
+        "chosen": "Best regards,\n[Your Name]",
+        "rejected": "Thanks,\n[Your Name]"
+    },
+    {
+        "prompt": "You're confirming that you've cancelled a subscription for a customer.",
+        "chosen": "This email serves as confirmation that your subscription has been successfully cancelled as per your request. Your access will terminate at the end of the current billing cycle on October 31st.",
+        "rejected": "Just wanted to let you know that we've cancelled your subscription. You'll still have access to everything until October 31st. We're sad to see you go!"
+    },
+    {
+        "prompt": "You\u2019re confirming a meeting reschedule with a client.",
+        "chosen": "Dear Jordan,\n\nThank you for your message. I have updated our meeting to Wednesday at 2:00 PM. Please let me know if this time is still convenient for you.\n\nBest regards,\nSam",
+        "rejected": "Got it\u2014moved our chat to Wed 2pm. That still work for you?"
+    },
+    {
+        "prompt": "You\u2019re following up after sending a proposal.",
+        "chosen": "Dear Morgan,\n\nI wanted to follow up on the proposal I sent last week. Please let me know if you have any questions or require additional information.\n\nSincerely,\nJamie",
+        "rejected": "Hey Morgan\u2014just checking if you had a chance to peek at the proposal. Thoughts?"
+    },
+    {
+        "prompt": "You\u2019re notifying a client about a price increase.",
+        "chosen": "Dear Valued Customer,\n\nWe would like to inform you of a forthcoming adjustment to our pricing structure effective next month.\n\nSincerely,\nThe Team",
+        "rejected": "Heads up\u2014prices bump a bit next month. Just keeping you in the loop \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re confirming receipt of a client\u2019s payment.",
+        "chosen": "Dear Chris,\n\nWe have received your payment in full. Thank you for your prompt attention to this matter.\n\nKind regards,\nAlex",
+        "rejected": "Hey Chris\u2014payment came through, thanks a ton!"
+    },
+    {
+        "prompt": "You\u2019re apologizing for a billing error.",
+        "chosen": "Dear Jamie,\n\nWe apologize for the billing discrepancy on your recent invoice. The corrected statement has been issued.\n\nSincerely,\nThe Finance Team",
+        "rejected": "Hey Jamie\u2014our bad on that invoice mix-up. Fixed it and sent the right one over!"
+    },
+    {
+        "prompt": "You\u2019re reminding a team about an upcoming deadline.",
+        "chosen": "Hello Team,\n\nThis is a reminder that the project deadline is this Friday. Please ensure all deliverables are completed on time.\n\nBest,\nTaylor",
+        "rejected": "Quick ping\u2014deadline\u2019s Fri! Let\u2019s wrap things up this week \ud83d\udcaa"
+    },
+    {
+        "prompt": "You\u2019re checking in with a supplier about a delayed shipment.",
+        "chosen": "Dear Supplier,\n\nCould you please provide an update regarding the delayed shipment referenced in PO #1125?\n\nBest regards,\nAlex",
+        "rejected": "Hey, any update on that shipment for PO #1125? Running a bit late."
+    },
+    {
+        "prompt": "You\u2019re congratulating a coworker on a promotion.",
+        "chosen": "Dear Casey,\n\nCongratulations on your well-deserved promotion. I wish you continued success in your new role.\n\nSincerely,\nJordan",
+        "rejected": "Huge congrats, Casey! Totally earned it \ud83d\ude4c"
+    },
+    {
+        "prompt": "You\u2019re updating a client about a completed task.",
+        "chosen": "Dear Sam,\n\nI am pleased to inform you that the requested updates have been implemented as of today.\n\nBest regards,\nTaylor",
+        "rejected": "All set, Sam\u2014updates are live!"
+    },
+    {
+        "prompt": "You\u2019re confirming a lunch meeting.",
+        "chosen": "Dear Alex,\n\nThis is to confirm our lunch meeting on Thursday at noon at The Grove restaurant.\n\nKind regards,\nJamie",
+        "rejected": "Cool\u2014see you Thu noon at The Grove!"
+    },
+    {
+        "prompt": "You\u2019re thanking a customer for feedback.",
+        "chosen": "Dear Customer,\n\nThank you for taking the time to provide your feedback. We value your input and will use it to improve our services.\n\nSincerely,\nSupport Team",
+        "rejected": "Appreciate the feedback\u2014super helpful, thanks!"
+    },
+    {
+        "prompt": "You\u2019re asking for clarification on project specs.",
+        "chosen": "Dear Jordan,\n\nCould you please clarify the requirements for section 3.2 of the document?\n\nKind regards,\nAlex",
+        "rejected": "Hey Jordan\u2014can you clarify what you want for section 3.2?"
+    },
+    {
+        "prompt": "You\u2019re confirming that a refund was processed.",
+        "chosen": "Dear Customer,\n\nYour refund has been successfully processed and will appear on your statement within 3\u20135 business days.\n\nBest regards,\nSupport Team",
+        "rejected": "Refund\u2019s done\u2014you\u2019ll see it hit your account in a few days \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re declining a meeting invitation politely.",
+        "chosen": "Dear Jamie,\n\nThank you for the invitation. Unfortunately, I am unavailable at that time. Please let me know if there are alternative dates.\n\nBest,\nSam",
+        "rejected": "Thanks for the invite\u2014can\u2019t make that slot, sorry! Maybe another time?"
+    },
+    {
+        "prompt": "You\u2019re confirming a document was received.",
+        "chosen": "Dear Taylor,\n\nI confirm receipt of your signed agreement. Thank you for your prompt response.\n\nSincerely,\nAlex",
+        "rejected": "Got the signed doc\u2014thanks, Taylor!"
+    },
+    {
+        "prompt": "You\u2019re requesting a project update from your team.",
+        "chosen": "Hello Team,\n\nPlease provide a status update on your assigned tasks by end of day.\n\nBest regards,\nProject Manager",
+        "rejected": "Hey team\u2014can you drop me quick updates by EOD?"
+    },
+    {
+        "prompt": "You\u2019re apologizing for missing a meeting.",
+        "chosen": "Dear Jordan,\n\nI sincerely apologize for missing our meeting earlier today. It was unintentional, and I would like to reschedule at your convenience.\n\nBest,\nTaylor",
+        "rejected": "Hey Jordan\u2014sorry I missed the call earlier. Can we reschedule?"
+    },
+    {
+        "prompt": "You\u2019re letting a coworker know you\u2019re running late.",
+        "chosen": "Dear Chris,\n\nI apologize, but I will be approximately ten minutes late for our meeting.\n\nKind regards,\nAlex",
+        "rejected": "Running ~10 late\u2014be there soon!"
+    },
+    {
+        "prompt": "You\u2019re asking a client to approve a draft.",
+        "chosen": "Dear Jamie,\n\nPlease review the attached draft and confirm whether it meets your expectations.\n\nBest regards,\nSam",
+        "rejected": "Hey Jamie\u2014mind giving the draft a quick look and thumbs up if good?"
+    },
+    {
+        "prompt": "You\u2019re sending a reminder for unpaid invoice.",
+        "chosen": "Dear Client,\n\nThis is a reminder that invoice #209 remains unpaid. Kindly remit payment at your earliest convenience.\n\nSincerely,\nFinance Team",
+        "rejected": "Hey, just a nudge\u2014invoice #209\u2019s still open. Can you take a look?"
+    },
+    {
+        "prompt": "You\u2019re acknowledging a coworker\u2019s help.",
+        "chosen": "Dear Taylor,\n\nThank you for your assistance with the recent project. Your support is greatly appreciated.\n\nBest regards,\nJordan",
+        "rejected": "Thanks a bunch for the help, Taylor\u2014really appreciate it!"
+    },
+    {
+        "prompt": "You\u2019re sending a quick recap after a call.",
+        "chosen": "Dear Chris,\n\nAs discussed in our call, I have summarized the key points below for your reference.\n\nKind regards,\nAlex",
+        "rejected": "Here\u2019s the quick recap from our call \ud83d\udc47"
+    },
+    {
+        "prompt": "You\u2019re checking if a client got your email.",
+        "chosen": "Dear Jamie,\n\nI am following up to confirm that you received my previous email.\n\nSincerely,\nTaylor",
+        "rejected": "Hey Jamie\u2014just checking if my last email came through?"
+    },
+    {
+        "prompt": "You\u2019re confirming delivery of a package.",
+        "chosen": "Dear Customer,\n\nYour package has been successfully delivered. Thank you for choosing our service.\n\nBest regards,\nSupport",
+        "rejected": "Package\u2019s been delivered\u2014thanks for ordering!"
+    },
+    {
+        "prompt": "You\u2019re introducing a new team member to a client.",
+        "chosen": "Dear Client,\n\nI would like to introduce our new account manager, Taylor, who will be your point of contact moving forward.\n\nKind regards,\nJordan",
+        "rejected": "Meet Taylor\u2014our new account manager who\u2019ll be helping out from here \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re reminding someone about tomorrow\u2019s meeting.",
+        "chosen": "Dear Alex,\n\nThis is a friendly reminder about our meeting scheduled for tomorrow at 11:00 AM.\n\nBest regards,\nJamie",
+        "rejected": "Quick reminder\u2014see you tomorrow at 11!"
+    },
+    {
+        "prompt": "You\u2019re sending a thank-you note after a job interview.",
+        "chosen": "Dear Hiring Committee,\n\nThank you for the opportunity to interview. I appreciate your time and consideration.\n\nSincerely,\nTaylor",
+        "rejected": "Thanks so much for chatting today\u2014really enjoyed the convo!"
+    },
+    {
+        "prompt": "You\u2019re asking a coworker for a quick favor.",
+        "chosen": "Dear Sam,\n\nCould you please assist me with uploading the report to the shared drive?\n\nKind regards,\nAlex",
+        "rejected": "Hey Sam\u2014can you toss that report on the shared drive for me?"
+    },
+    {
+        "prompt": "You\u2019re confirming the agenda for a meeting.",
+        "chosen": "Dear Team,\n\nPlease find the meeting agenda attached for tomorrow\u2019s session.\n\nSincerely,\nProject Lead",
+        "rejected": "Agenda\u2019s attached for tomorrow\u2014see y\u2019all then!"
+    },
+    {
+        "prompt": "You\u2019re notifying a client of a brief service outage.",
+        "chosen": "Dear Valued Customer,\n\nPlease be advised of a scheduled maintenance window during which service may be temporarily unavailable.\n\nSincerely,\nSupport Team",
+        "rejected": "Heads up\u2014we\u2019ll be down for a bit during maintenance, then right back up."
+    },
+    {
+        "prompt": "You\u2019re following up after a networking event.",
+        "chosen": "Dear Jamie,\n\nIt was a pleasure meeting you at the conference. I hope we can stay in touch.\n\nBest regards,\nTaylor",
+        "rejected": "Great meeting you at the conference! Let\u2019s stay in touch."
+    },
+    {
+        "prompt": "You\u2019re confirming attendance at an event.",
+        "chosen": "Dear Organizer,\n\nThank you for the invitation. I confirm my attendance at the event.\n\nKind regards,\nJordan",
+        "rejected": "Count me in\u2014see you at the event!"
+    },
+    {
+        "prompt": "You\u2019re sending a project handoff email.",
+        "chosen": "Dear Team,\n\nPlease find the handoff documents attached for your review and next steps.\n\nSincerely,\nProject Manager",
+        "rejected": "Handoff docs are attached\u2014passing it over to you guys!"
+    },
+    {
+        "prompt": "You\u2019re informing a client that their request is complete.",
+        "chosen": "Dear Sam,\n\nYour requested updates have been completed. Please review at your convenience.\n\nBest regards,\nTaylor",
+        "rejected": "All done\u2014your updates are live, Sam!"
+    },
+    {
+        "prompt": "You\u2019re reminding a coworker to submit their timesheet.",
+        "chosen": "Dear Alex,\n\nPlease remember to submit your timesheet by end of day.\n\nKind regards,\nHR",
+        "rejected": "Don\u2019t forget timesheet\u2019s due today!"
+    },
+    {
+        "prompt": "You\u2019re requesting feedback on a draft.",
+        "chosen": "Dear Chris,\n\nPlease review the attached document and provide feedback by Friday.\n\nSincerely,\nJamie",
+        "rejected": "Hey\u2014can you skim the draft and drop feedback by Fri?"
+    },
+    {
+        "prompt": "You\u2019re confirming you\u2019ll attend a team meeting.",
+        "chosen": "Dear Taylor,\n\nThank you for the invitation. I will be in attendance.\n\nBest regards,\nAlex",
+        "rejected": "I\u2019m in for the meeting \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re letting a client know you\u2019re out of office.",
+        "chosen": "Dear Jamie,\n\nI am currently out of the office and will respond upon my return next week.\n\nSincerely,\nTaylor",
+        "rejected": "Out this week\u2014back next Mon and will reply then!"
+    },
+    {
+        "prompt": "You\u2019re asking for an updated delivery date.",
+        "chosen": "Dear Supplier,\n\nCould you please confirm the revised delivery date for our pending order?\n\nBest regards,\nJordan",
+        "rejected": "Hey\u2014what\u2019s the new ETA on that order?"
+    },
+    {
+        "prompt": "You\u2019re acknowledging receipt of a support ticket.",
+        "chosen": "Dear Customer,\n\nWe have received your support request and will respond within 24 hours.\n\nSincerely,\nSupport Team",
+        "rejected": "Got your ticket\u2014someone will jump on it soon \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re confirming a training session time.",
+        "chosen": "Dear Team,\n\nThis is to confirm the training session will be held at 3:00 PM on Thursday.\n\nBest regards,\nHR",
+        "rejected": "Training\u2019s locked for Thu 3pm. See you then!"
+    },
+    {
+        "prompt": "You\u2019re letting a client know about a delay.",
+        "chosen": "Dear Sam,\n\nWe regret to inform you that your order has been delayed due to unforeseen circumstances.\n\nSincerely,\nSupport Team",
+        "rejected": "Hey Sam\u2014bit of a delay on your order, sorry about that!"
+    },
+    {
+        "prompt": "You\u2019re following up on a missed payment.",
+        "chosen": "Dear Customer,\n\nThis is a reminder that your payment for invoice #405 is overdue. Please remit payment promptly.\n\nSincerely,\nBilling Department",
+        "rejected": "Hey\u2014looks like invoice #405 hasn\u2019t gone through yet. Can you check?"
+    },
+    {
+        "prompt": "You\u2019re checking if someone is free for a quick chat.",
+        "chosen": "Dear Taylor,\n\nDo you have availability to discuss the proposal today?\n\nKind regards,\nAlex",
+        "rejected": "Hey, got a few mins today to chat about the proposal?"
+    },
+    {
+        "prompt": "You\u2019re sharing meeting notes with your team.",
+        "chosen": "Dear Team,\n\nPlease find attached the notes from today\u2019s meeting.\n\nBest regards,\nProject Lead",
+        "rejected": "Notes from today\u2019s call are attached \ud83d\udc47"
+    },
+    {
+        "prompt": "You\u2019re confirming a presentation slot.",
+        "chosen": "Dear Jordan,\n\nYou are confirmed to present at 2:30 PM on Thursday.\n\nSincerely,\nEvent Coordinator",
+        "rejected": "You\u2019re up Thu 2:30\u2014confirmed!"
+    },
+    {
+        "prompt": "You\u2019re thanking a client for their patience.",
+        "chosen": "Dear Customer,\n\nThank you for your patience while we resolved this issue.\n\nSincerely,\nSupport Team",
+        "rejected": "Thanks for hanging in there while we sorted that out \ud83d\ude4f"
+    },
+    {
+        "prompt": "You\u2019re letting a coworker know a file was uploaded.",
+        "chosen": "Dear Sam,\n\nThe requested document has been uploaded to the shared folder.\n\nBest regards,\nAlex",
+        "rejected": "File\u2019s up in the shared folder now \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re confirming you\u2019ll send a follow-up later.",
+        "chosen": "Dear Jamie,\n\nI will follow up with additional details later this week.\n\nKind regards,\nTaylor",
+        "rejected": "Cool\u2014I\u2019ll circle back with more details later this week."
+    },
+    {
+        "prompt": "You\u2019re notifying someone their request was approved.",
+        "chosen": "Dear Chris,\n\nYour request for budget approval has been accepted.\n\nSincerely,\nFinance",
+        "rejected": "Good news\u2014your budget got approved \ud83c\udf89"
+    },
+    {
+        "prompt": "You\u2019re asking if someone saw your message.",
+        "chosen": "Dear Jordan,\n\nI wanted to check if you had an opportunity to review my previous message.\n\nKind regards,\nAlex",
+        "rejected": "Hey\u2014did you see my last message?"
+    },
+    {
+        "prompt": "You\u2019re letting a client know you received their files.",
+        "chosen": "Dear Jamie,\n\nI confirm receipt of the files you sent. Thank you for your prompt response.\n\nBest regards,\nTaylor",
+        "rejected": "Got the files\u2014thanks, Jamie!"
+    },
+    {
+        "prompt": "You\u2019re asking your manager for a quick update on priorities.",
+        "chosen": "Dear Alex,\n\nCould you please provide an update on our current project priorities?\n\nSincerely,\nSam",
+        "rejected": "Hey Alex\u2014any update on what\u2019s top priority this week?"
+    },
+    {
+        "prompt": "You\u2019re confirming a shipment has been sent.",
+        "chosen": "Dear Customer,\n\nWe are pleased to inform you that your order has been dispatched.\n\nKind regards,\nSupport Team",
+        "rejected": "Your order\u2019s on the way \ud83d\ude9a"
+    },
+    {
+        "prompt": "You\u2019re thanking a client for renewing their contract.",
+        "chosen": "Dear Chris,\n\nThank you for renewing your contract with us. We appreciate your continued partnership.\n\nBest regards,\nAccount Manager",
+        "rejected": "Thanks for renewing, Chris\u2014stoked to keep working with you!"
+    },
+    {
+        "prompt": "You\u2019re following up after sending an invoice.",
+        "chosen": "Dear Jordan,\n\nI wanted to follow up to confirm receipt of the invoice I sent last week.\n\nSincerely,\nFinance Team",
+        "rejected": "Hey Jordan\u2014just making sure you got the invoice I sent over last week?"
+    },
+    {
+        "prompt": "You\u2019re confirming a call with a new client.",
+        "chosen": "Dear Taylor,\n\nThis is to confirm our introductory call scheduled for Monday at 10:00 AM.\n\nKind regards,\nJamie",
+        "rejected": "See you Mon 10am for our intro chat \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re updating a coworker on project status.",
+        "chosen": "Dear Sam,\n\nI would like to inform you that we have completed phase one of the project.\n\nSincerely,\nAlex",
+        "rejected": "Phase one\u2019s done! Moving on to the next bit \ud83d\udcaa"
+    },
+    {
+        "prompt": "You\u2019re apologizing for a typo in an earlier email.",
+        "chosen": "Dear Jordan,\n\nI apologize for the typographical error in my previous message.\n\nBest regards,\nTaylor",
+        "rejected": "Oops\u2014typo in my last email \ud83d\ude05 meant to say \u2018Thursday,\u2019 not \u2018Tuesday.\u2019"
+    },
+    {
+        "prompt": "You\u2019re confirming someone\u2019s registration for a webinar.",
+        "chosen": "Dear Participant,\n\nYour registration for the upcoming webinar has been confirmed.\n\nKind regards,\nEvent Team",
+        "rejected": "You\u2019re all set for the webinar \ud83d\ude4c"
+    },
+    {
+        "prompt": "You\u2019re sharing a link to meeting notes.",
+        "chosen": "Dear Team,\n\nPlease find the link to the meeting notes below for your reference.\n\nSincerely,\nProject Lead",
+        "rejected": "Notes are up\u2014here\u2019s the link \ud83d\udc47"
+    },
+    {
+        "prompt": "You\u2019re letting a client know about a successful test.",
+        "chosen": "Dear Chris,\n\nI am pleased to inform you that the system test was successful.\n\nBest regards,\nAlex",
+        "rejected": "Good news\u2014the test ran great \ud83c\udf89"
+    },
+    {
+        "prompt": "You\u2019re asking a teammate for their availability tomorrow.",
+        "chosen": "Dear Jamie,\n\nCould you please inform me of your availability for tomorrow?\n\nKind regards,\nTaylor",
+        "rejected": "Hey Jamie\u2014what\u2019s your schedule like tomorrow?"
+    },
+    {
+        "prompt": "You\u2019re confirming a payment plan adjustment.",
+        "chosen": "Dear Customer,\n\nYour payment plan has been adjusted as per your request.\n\nSincerely,\nBilling Department",
+        "rejected": "We updated your payment plan just like you asked \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re notifying a client that a bug was fixed.",
+        "chosen": "Dear Jordan,\n\nThe reported issue has been resolved. Please verify at your convenience.\n\nBest regards,\nSupport Team",
+        "rejected": "Bug\u2019s squashed! Give it a try when you can \ud83d\udc4f"
+    },
+    {
+        "prompt": "You\u2019re asking for a quick approval before sending a report.",
+        "chosen": "Dear Sam,\n\nPlease review and approve the attached report before submission.\n\nKind regards,\nAlex",
+        "rejected": "Mind giving this report a quick thumbs up before I send it?"
+    },
+    {
+        "prompt": "You\u2019re thanking someone for their quick reply.",
+        "chosen": "Dear Jamie,\n\nThank you for your prompt response.\n\nSincerely,\nTaylor",
+        "rejected": "Thanks for the speedy reply \ud83d\ude4c"
+    },
+    {
+        "prompt": "You\u2019re confirming a new hire\u2019s start date.",
+        "chosen": "Dear Taylor,\n\nWe are pleased to confirm your start date as Monday, June 5th.\n\nKind regards,\nHR",
+        "rejected": "Welcome aboard! Start date\u2019s Mon, June 5 \ud83c\udf89"
+    },
+    {
+        "prompt": "You\u2019re letting a client know their request is being processed.",
+        "chosen": "Dear Customer,\n\nYour request is currently being processed. We will update you shortly.\n\nSincerely,\nSupport Team",
+        "rejected": "Got your request\u2014we\u2019re on it and will update soon \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re confirming receipt of an NDA.",
+        "chosen": "Dear Jordan,\n\nI confirm that we have received the signed NDA.\n\nBest regards,\nLegal Department",
+        "rejected": "NDA came through\u2014thanks!"
+    },
+    {
+        "prompt": "You\u2019re notifying the team about a new company policy.",
+        "chosen": "Dear Team,\n\nPlease be advised that a new company policy has been implemented.\n\nSincerely,\nHR",
+        "rejected": "FYI\u2014new policy just rolled out. Check your inbox for the details."
+    },
+    {
+        "prompt": "You\u2019re checking if a supplier can rush an order.",
+        "chosen": "Dear Supplier,\n\nWould it be possible to expedite the current order?\n\nKind regards,\nAlex",
+        "rejected": "Any chance we can speed up that order?"
+    },
+    {
+        "prompt": "You\u2019re sending a reminder about an upcoming presentation.",
+        "chosen": "Dear Taylor,\n\nThis is a reminder that your presentation is scheduled for Friday at 9:00 AM.\n\nSincerely,\nEvent Coordinator",
+        "rejected": "Friendly reminder\u2014you\u2019re up Fri 9am \ud83d\ude0e"
+    },
+    {
+        "prompt": "You\u2019re thanking a colleague for covering a shift.",
+        "chosen": "Dear Sam,\n\nThank you for taking my shift yesterday. Your assistance is greatly appreciated.\n\nSincerely,\nJordan",
+        "rejected": "Thanks for covering my shift yesterday\u2014lifesaver \ud83d\ude4f"
+    },
+    {
+        "prompt": "You\u2019re confirming an address for delivery.",
+        "chosen": "Dear Customer,\n\nPlease confirm that the following address is correct for delivery.\n\nBest regards,\nSupport Team",
+        "rejected": "Can you double-check that this delivery address is right?"
+    },
+    {
+        "prompt": "You\u2019re notifying someone their subscription expired.",
+        "chosen": "Dear Customer,\n\nYour subscription has expired. Please renew to continue your service.\n\nKind regards,\nBilling Team",
+        "rejected": "Looks like your subscription\u2019s expired\u2014want to renew?"
+    },
+    {
+        "prompt": "You\u2019re asking a coworker to review slides.",
+        "chosen": "Dear Jamie,\n\nCould you please review the presentation slides before tomorrow\u2019s meeting?\n\nSincerely,\nAlex",
+        "rejected": "Hey Jamie\u2014mind giving the slides a quick look before tomorrow?"
+    },
+    {
+        "prompt": "You\u2019re telling a client their order was canceled.",
+        "chosen": "Dear Customer,\n\nYour recent order has been canceled per your request.\n\nSincerely,\nSupport",
+        "rejected": "We canceled your order as requested \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re confirming the time for a follow-up call.",
+        "chosen": "Dear Chris,\n\nI would like to confirm our follow-up call for Thursday at 3:00 PM.\n\nBest regards,\nTaylor",
+        "rejected": "Still good for Thu 3pm follow-up?"
+    },
+    {
+        "prompt": "You\u2019re sending a quick holiday greeting to clients.",
+        "chosen": "Dear Valued Clients,\n\nWishing you a happy holiday season and a prosperous new year.\n\nSincerely,\nThe Team",
+        "rejected": "Happy holidays! Hope you get some good downtime \ud83c\udf84"
+    },
+    {
+        "prompt": "You\u2019re letting someone know the report is delayed.",
+        "chosen": "Dear Jamie,\n\nI regret to inform you that the report will be delayed until tomorrow.\n\nSincerely,\nAlex",
+        "rejected": "Running a bit behind\u2014the report\u2019ll be ready tomorrow."
+    },
+    {
+        "prompt": "You\u2019re asking your boss for feedback on your work.",
+        "chosen": "Dear Jordan,\n\nCould you please provide feedback on the report I submitted last week?\n\nBest regards,\nTaylor",
+        "rejected": "Hey Jordan\u2014any feedback on that report from last week?"
+    },
+    {
+        "prompt": "You\u2019re confirming a meeting room booking.",
+        "chosen": "Dear Team,\n\nThe meeting room has been reserved for Thursday at 2:00 PM.\n\nSincerely,\nFacilities",
+        "rejected": "Room\u2019s booked for Thu 2pm \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re thanking someone for providing information.",
+        "chosen": "Dear Chris,\n\nThank you for sharing the requested information.\n\nKind regards,\nJamie",
+        "rejected": "Appreciate you sending that over!"
+    },
+    {
+        "prompt": "You\u2019re reminding a client to complete their profile.",
+        "chosen": "Dear Customer,\n\nPlease complete your account profile to access all features.\n\nSincerely,\nSupport",
+        "rejected": "Don\u2019t forget to finish setting up your profile so everything works \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re telling a client a document was signed.",
+        "chosen": "Dear Jordan,\n\nThe agreement has been fully executed.\n\nBest regards,\nLegal Department",
+        "rejected": "All signed and done \u2705"
+    },
+    {
+        "prompt": "You\u2019re sharing a calendar invite for a call.",
+        "chosen": "Dear Taylor,\n\nPlease find attached the calendar invitation for our scheduled call.\n\nSincerely,\nSam",
+        "rejected": "Just sent over the calendar invite \ud83d\udcc5"
+    },
+    {
+        "prompt": "You\u2019re checking if a coworker finished their task.",
+        "chosen": "Dear Jamie,\n\nCould you please confirm whether you have completed your assigned task?\n\nKind regards,\nAlex",
+        "rejected": "Hey\u2014did you get that task wrapped up?"
+    },
+    {
+        "prompt": "You\u2019re asking someone to resend an attachment.",
+        "chosen": "Dear Jordan,\n\nIt appears the attachment did not come through. Could you please resend it?\n\nSincerely,\nTaylor",
+        "rejected": "Looks like the attachment didn\u2019t come through\u2014mind resending?"
+    },
+    {
+        "prompt": "You\u2019re confirming a project handoff was successful.",
+        "chosen": "Dear Team,\n\nThe handoff has been completed successfully.\n\nBest regards,\nProject Manager",
+        "rejected": "Handoff\u2019s done and dusted \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re letting someone know you\u2019ll be late to a meeting.",
+        "chosen": "Dear Sam,\n\nI will be approximately five minutes late to our meeting.\n\nSincerely,\nJamie",
+        "rejected": "Running ~5 late\u2014see you soon!"
+    },
+    {
+        "prompt": "You\u2019re thanking a client for their patience during downtime.",
+        "chosen": "Dear Customer,\n\nWe appreciate your patience during the recent service interruption.\n\nSincerely,\nSupport Team",
+        "rejected": "Thanks for bearing with us during the downtime \ud83d\ude4f"
+    },
+    {
+        "prompt": "You\u2019re sending a reminder for contract renewal.",
+        "chosen": "Dear Customer,\n\nYour contract is due for renewal at the end of this month.\n\nKind regards,\nAccount Manager",
+        "rejected": "Heads up\u2014your contract\u2019s up for renewal soon \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re confirming an internal training signup.",
+        "chosen": "Dear Employee,\n\nYour registration for the training session has been confirmed.\n\nSincerely,\nHR",
+        "rejected": "You\u2019re all signed up for the training \ud83d\ude4c"
+    },
+    {
+        "prompt": "You\u2019re notifying a client their request was completed early.",
+        "chosen": "Dear Jordan,\n\nWe are pleased to inform you that your request has been completed ahead of schedule.\n\nBest regards,\nSupport",
+        "rejected": "Good news\u2014got it done earlier than planned \ud83c\udf89"
+    },
+    {
+        "prompt": "You\u2019re following up to check satisfaction after a project delivery.",
+        "chosen": "Dear Client,\n\nI wanted to confirm that the delivered project met your expectations.\n\nSincerely,\nAccount Manager",
+        "rejected": "Hey\u2014just checking everything\u2019s good with the final project?"
+    },
+    {
+        "prompt": "You\u2019re confirming a catering order for a company event.",
+        "chosen": "Dear Caterer,\n\nThis is to confirm our catering order for Friday\u2019s company lunch.\n\nBest regards,\nOffice Admin",
+        "rejected": "Catering\u2019s locked for Fri lunch \ud83c\udf74"
+    },
+    {
+        "prompt": "You\u2019re apologizing for not replying sooner.",
+        "chosen": "Dear Jamie,\n\nApologies for my delayed response. I appreciate your patience.\n\nSincerely,\nTaylor",
+        "rejected": "Sorry for the slow reply\u2014just catching up now!"
+    },
+    {
+        "prompt": "You\u2019re sharing updated files with a client.",
+        "chosen": "Dear Chris,\n\nPlease find attached the updated versions of your requested files.\n\nBest regards,\nAlex",
+        "rejected": "Updated files are attached\u2014take a look \ud83d\udc47"
+    },
+    {
+        "prompt": "You\u2019re confirming completion of onboarding paperwork.",
+        "chosen": "Dear Taylor,\n\nYour onboarding documents have been successfully submitted.\n\nKind regards,\nHR",
+        "rejected": "Got all your onboarding forms\u2014thanks!"
+    },
+    {
+        "prompt": "You\u2019re letting a team know about a change in schedule.",
+        "chosen": "Dear Team,\n\nPlease note that the meeting schedule has been revised.\n\nBest regards,\nProject Lead",
+        "rejected": "Heads up\u2014meeting schedule got tweaked a bit \u23f0"
+    },
+    {
+        "prompt": "You\u2019re thanking a client for a referral.",
+        "chosen": "Dear Jamie,\n\nThank you for referring a new client to us. We greatly appreciate your support.\n\nSincerely,\nSales Team",
+        "rejected": "Thanks for the referral\u2014really appreciate it \ud83d\ude4c"
+    },
+    {
+        "prompt": "You\u2019re confirming that a feature request was added to the roadmap.",
+        "chosen": "Dear Customer,\n\nYour feature request has been added to our development roadmap.\n\nSincerely,\nProduct Team",
+        "rejected": "We added your request to the roadmap \ud83d\udc4d"
+    },
+    {
+        "prompt": "You\u2019re acknowledging a job application submission.",
+        "chosen": "Dear Applicant,\n\nThank you for applying. We will review your application and contact you soon.\n\nKind regards,\nRecruiting",
+        "rejected": "Got your application\u2014thanks for applying!"
+    }
+]
